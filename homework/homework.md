@@ -84,8 +84,10 @@ my take in it
 
 **Task:**  
 Train a new model on a provided housing dataset and deploy it using the same Docker structure. The task is to build a regression model to predict the housing price.
-
-
+my regression model
+![alt text](image-5.png)
+direcory
+![alt text](image-6.png)
 ---
 
 ## 🔹 Exercise 6: Write a README
