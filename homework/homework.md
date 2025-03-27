@@ -18,6 +18,8 @@ Update the `/predict` endpoint to return the prediction **and** the **confidence
 }
 ```
 
+my outcome
+![alt text](image.png)
 ---
 
 ## 🔹 Exercise 2: Handle Multiple Inputs
@@ -44,6 +46,9 @@ Allow the `/predict` endpoint to accept a list of inputs.
 }
 ```
 
+my result 
+![alt text](image-1.png)
+
 ---
 
 ## 🔹 Exercise 3: Add Input Validation
@@ -54,8 +59,12 @@ Ensure that:
 - Each input has exactly 4 float values
 - Invalid input returns a clear error message with HTTP 400
 
+my take in it
+when the pay load is empty
+![alt text](image-2.png)
+when invalid input
+![alt text](image-3.png)
 ---
-
 ## 🔹 Exercise 4: Add Health Check Endpoint
 
 **Task:**  
@@ -66,7 +75,9 @@ Add an endpoint `/health` that returns a simple JSON indicating the API is live:
   "status": "ok"
 }
 ```
+my take in it
 
+![alt text](image-4.png)
 ---
 
 ## 🔹 Exercise 5: Dockerize Your Own Model
